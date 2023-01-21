@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#part1{
+    width: 24%;
+    height: 100%;
+    background-color: rgb(179, 120, 120);
+}
+#part2{
+    width: 71%;
+    height: 100%;
+    background-color: rgb(105, 105, 189);
+
+    
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    
+    
+    background-position: center;
+    background-size: cover;
+}
+
+#part2>#cover{
+    
+    position: absolute;
+    background-color: rgba(6, 8, 8, 0.589);
+    height: 100%;
+    width: 100%;
+    
+    
+}
+#part3{
+    width: 10%;
+    height: 100%;
+    background-color: #edd7d1;
+}
+
+#big-text{
+    font-size: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    font-weight: 100;
+    font-family: 'Gilroy';
+    line-height: 80px;
+    letter-spacing: 4px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.788);
+    -webkit-text-stroke-width: 2px;
+
+}
+
+#photo-2{
+    position: absolute;
+    top: 17%;
+    right: 4%;
+    width: 330px;
+    height: 500px;
+     
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1514846226882-28b324ef7f28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+}   
+#coverx{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(70, 53, 53, 0.507);
+
+
+}
+
+nav{
+    position: absolute;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 6%;
+    left: 3%;
+    
+}
+
+nav>i{
+    font-size: 90px;
+}
+nav>h2{
+    font-family: 'Gilroy';
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#horixon{
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 70px;
+    top: -5%;
+    letter-spacing: 8px;
+    transform-origin: 0% 0%;
+    right: -34%;
+    
+    font-family: 'gilroy';
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.559);
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+
+}

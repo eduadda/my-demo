@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    width: 100%;
+}
+#top50{
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80);
+    background-position: center;
+    background-size: cover;
+    background-position-y:60% ;
+}
+#cover{
+    min-height: inherit;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+nav{
+    position: relative;
+    top: 4vw;
+    width: 100%;
+    padding: 0 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+nav>l#leftNav{
+display: flex;
+}
+nav>#rightNav{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+#rightNav>h2{
+    padding: 0 10px ;
+    font-size: 35px;
+    background-color: rgb(252, 174, 8);
+    border-radius: 50%;
+    font-family: 'Boruto Uchia';
+    
+}
+#leftNav>i{
+    font-size: 20px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#rightNav>h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
+    font-family: 'Devitta';
+}
+.center{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7vw ;
+}
+.center>#centerLeft>h1{
+
+    font-family: 'Boruto Uchia';
+    font-size:6VW;
+    letter-spacing: .6vw;
+}
+.center>#centerRigfht{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center>#centerRigfht>.icon>i{
+    font-size: 20px;
+    padding:2px;
+}
+.center>#centerRigfht>p{
+    width: 400px;
+    padding: 3vw;
+}
+#bottom50{
+    min-height: 40vh;
+    width: 100%;
+    display: flex;
+}
+.col-1{
+    padding: 30px;
+    min-height: inherit;
+    width: 27%;
+}
+.col-1>h3{
+    line-height: 30px;
+}
+.col-4>{
+    font-size: 13px;
+}
+.col-2{
+    min-height: inherit;
+    width: 23%;
+    background-color: rgb(82, 189, 105);
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1627305455014-019210ce17ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80);
+}
+
+.col-3{
+    min-height: inherit;
+    width: 23%;
+    background-color: rgb(51, 140, 141);
+    display: flex;
+    flex-direction: column;
+}
+.col-3>#element1{
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(230, 69, 10);
+    padding: 30px;
+}
+.col-3>#element1>h1{
+    line-height: 20px;
+}
+.col-3>#element1>p{
+    font-size: 13px;
+}
+.col-3>#element2{
+    width: 100%;
+    min-height: 20vh;
+    background-position-y: 20%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+.col-4{
+    min-height: inherit;
+    width: 27%;
+    background-color: rgb(48, 45, 47);
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.col-4>#photo{
+    display: flex;
+    align-items: center;
+}
+.col-4>h4{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: wheat;
+}
+.col-4>#photo>img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    background-position: center; 
+    margin-top: 30px;
+}
+.col-4>#photo>p{
+    font-size: 14px;
+    margin: 30px;
+    color: wheat;
+}
+
+@media (max-width:500px) {
+    .center{
+        top: 30%;
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    .center>#centerRigfht{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .center>#centerRigfht>P{
+        width: 90%;
+    }
+    .center>#centerLeft>h1{
+        font-size: 7vw;
+    }
+    #bottom50{
+        flex-direction: column;
+        min-height: 20vh;
+    }
+    .colum{
+        width: 100%;
+    }
+    .col-1{
+        min-height: 30vh;
+    }
+    #leftNav>i{
+        font-size: 13px;
+        margin-right: 7px;
+    }
+}
